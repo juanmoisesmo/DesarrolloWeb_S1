@@ -1,0 +1,145 @@
+     .flex-container {
+         display: -webkit-flex;
+         display: flex;
+         -webkit-flex-flow: row wrap;
+         flex-flow: row wrap;
+         text-align: center;
+     }
+     
+     .flex-container>* {
+         padding: 15px;
+         -webkit-flex: 1 100%;
+         flex: 1 100%;
+     }
+     
+     header {
+         background: #003366;
+         color: white;
+     }
+     
+     body {
+         background: #e7f9f9;
+     }
+     
+     footer {
+         background: #003366;
+         color: white;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+     
+     ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
+         background-color: #003366;
+     }
+     
+     li {
+         float: left;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+     
+     li a {
+         display: block;
+         color: white;
+         text-align: center;
+         padding: 14px 16px;
+         text-decoration: none;
+     }
+     
+     li a:hover:not(.active) {
+         background-color: #111;
+     }
+     
+     .active {
+         background-color: #7C98AB;
+         color: #112A32;
+     }
+     
+     li a:hover {
+         background-color: #111;
+         color: white;
+     }
+     
+     h1 {
+         padding: 0px;
+         margin: 0px;
+         text-align: left;
+         padding-left: 20px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+     
+     h3 {
+         padding: 0px;
+         margin: 0px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+     
+     h2 {
+         padding: 3px;
+         margin: 3px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+     
+     h3 {
+         padding: 10px;
+         margin: 10px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+     
+     .format-text-20 {
+         padding-left: 20;
+     }
+     
+     .format-text-40 {
+         padding-left: 40;
+     }
+     
+     .format-text-60 {
+         padding-left: 60;
+     }
+     
+     .format-text-80 {
+         padding-left: 80;
+     }
+     
+     .format-text-100 {
+         padding-left: 100;
+     }
+     
+     .format-text-center {
+         text-align: center;
+     }
+     
+     .foto {
+         height: 210px;
+         width: 300px;
+         padding-left: 40;
+     }
+     
+     a:visited {
+         color: white;
+         background-color: transparent;
+         text-decoration: none;
+     }
+     
+     a:hover {
+         color: white;
+         background-color: transparent;
+         text-decoration: underline;
+     }
+     
+     table {
+         border-collapse: collapse;
+     }
+     
+     table,
+     th,
+     td {
+         border: 1px solid black;
+     }
+     
+     table {
+         width: 50%;
+     }
